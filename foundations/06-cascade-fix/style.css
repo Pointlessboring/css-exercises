@@ -1,14 +1,22 @@
+
+
 .para,
 .small-para {
   color: hsl(0, 100%, 50%);
+}
+
+.para {
+  font-size: 22px;
 }
 
 .small-para {
   font-size: 12px;
 }
 
-.para {
-  font-size: 22px;
+.button {
+  background-color: #ffc0cb;
+  color: black;
+  font-size: 20px;
 }
 
 .confirm {
@@ -18,18 +26,19 @@
   font-weight: bold;
 } 
 
-.button {
-  background-color: #ffc0cb;
-  color: black;
-  font-size: 20px;
-}
-
-.child {
-  color: red;
-  font-size: 14px;
-}
+/*  
+  Note: My solution differs from the TOP solution supplied.
+  I tried to minimize the number of changes to the file and keep the original selectors in place.
+  Hopefully this is just in good in real life situations...
+  */
 
 div.text {
   color: green;
   font-size: 28px;
 }
+
+div.text.child {
+  color: red;
+  font-size: 14px;
+}
+
