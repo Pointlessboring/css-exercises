@@ -1,0 +1,15 @@
+
+/*  Note: I had not included the "height: auto" that included in the solution
+    after researching it (quickly) auto is the default so both should be ok.
+    but... The Zen of Python "Explicit is better than implicit" */
+
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+
+}
