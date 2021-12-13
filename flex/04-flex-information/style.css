@@ -7,9 +7,30 @@ img {
   height: 100px;
 }
 
+.exercice {
+  display: flex;
+  row-gap: 32px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 52px; 
+  margin-top: 32px;
+}
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  
+}
+.column {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 200px;
 }
 
 /* do not edit this footer */
