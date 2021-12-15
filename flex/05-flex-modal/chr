@@ -1,0 +1,6 @@
+#!/bin/sh
+
+#this script launches Google Chrome and open the file passed as an argument.
+
+open -a "Google Chrome" $1
+
